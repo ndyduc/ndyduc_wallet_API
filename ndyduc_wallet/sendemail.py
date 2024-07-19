@@ -15,7 +15,7 @@ def send_email(email):
     msg.attach(mime_msg)
 
     username = 'duc20021118@gmail.com'
-    password = 'byll xaks nrgu owlf' 
+    password = '' # api key email
 
     try:
         server = smtplib.SMTP('smtp.gmail.com', 587)
